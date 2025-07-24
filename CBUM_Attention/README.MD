@@ -13,7 +13,8 @@ This project implements CBAM (Convolutional Block Attention Module) attention me
 2. **Attention Visualization**: Tools to visualize attention maps on test images
 3. **Statistical Analysis**: Comprehensive attention pattern analysis across classes
 4. **Interactive Plotting**: High-quality matplotlib visualizations with detailed insights
-
+### Dataset
+For this project https://www.kaggle.com/datasets/shuvoalok/ck-dataset dataset has been used
 ## Features
 
 - ✅ **Complete CBAM Implementation**: Channel and spatial attention modules

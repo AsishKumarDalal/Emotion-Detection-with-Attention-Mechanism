@@ -5,7 +5,8 @@ A TensorFlow/Keras implementation of the Channel Attention Module based on the S
 ## Overview
  When we See a person We can detect the person  is happy or sad by looking at eyes ,lips and by the face impressions ,  the background,the hair does not effect our disicion .same  for  the  cnn we only want to focus on few important fetaure maps and rest to be ignored  so we implememt this attenton module.
 The Channel Attention Module implements the core concepts from Squeeze-and-Excitation Networks (SENet), which won the 2017 ImageNet competition. This mechanism helps neural networks focus on the most informative channels while suppressing less relevant ones, significantly improving model performance with minimal computational overhead.
-
+### Dataset
+For this project https://www.kaggle.com/datasets/shuvoalok/ck-dataset dataset has been used
 ## What is Squeeze-and-Excitation?
 
 The SE mechanism addresses a fundamental limitation of convolutional operations: **convolution is a local operation** that processes small regions of the input. While this is effective for capturing local patterns, it lacks global context understanding. The SE block provides this global perspective by:
