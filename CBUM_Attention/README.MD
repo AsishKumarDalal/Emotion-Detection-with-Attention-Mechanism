@@ -2,18 +2,6 @@
 
 A comprehensive implementation of Convolutional Block Attention Module (CBAM) with advanced visualization tools for understanding attention mechanisms in deep learning models, specifically designed for emotion recognition tasks.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Architecture](#architecture)
-- [Usage](#usage)
-- [API Reference](#api-reference)
-- [Visualization Examples](#visualization-examples)
-- [Performance Analysis](#performance-analysis)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 
 ## Overview
  When we See a person We can detect the person  is happy or sad by looking at eyes ,lips and by the face impressions ,  the background,the hair does not effect our disicion .same  for  the  cnn we only want to focus on few important fetaure maps and rest to be ignored  so we implememt this attenton module.
